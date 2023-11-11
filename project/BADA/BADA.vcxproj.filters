@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BADA">
+      <UniqueIdentifier>{4fca66cd-7117-444b-85f9-3b2ac4f97988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_soft_renderer_2d">
+      <UniqueIdentifier>{9eb68eda-ff81-48b9-a59c-a7376db8bc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_math">
+      <UniqueIdentifier>{41ff5e92-b039-4611-ae41-bd4a68808ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_generic">
+      <UniqueIdentifier>{85959c26-03cd-4934-bc82-10d07c455d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_file_system">
+      <UniqueIdentifier>{6084c5d4-a735-4bbd-9bea-4508c3ae80f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_common">
+      <UniqueIdentifier>{953abb3b-acdd-4f0d-abba-4d86f65150da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_generic\util">
+      <UniqueIdentifier>{850b56ab-9264-429f-b810-368cde631ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BADA\private">
+      <UniqueIdentifier>{79baaf85-8074-4aaf-91be-27e39b6afdf1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\safe99_common\defines.h">
+      <Filter>safe99_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_file_system\i_file_system.h">
+      <Filter>safe99_file_system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\i_chunked_memory_pool.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\i_dynamic_vector.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\i_fixed_vector.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\i_map.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\i_static_memory_pool.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\list.h">
+      <Filter>safe99_generic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\util\hash_function.h">
+      <Filter>safe99_generic\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_generic\util\timer.h">
+      <Filter>safe99_generic\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\color.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\math.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\math_defines.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\math_misc.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\matrix.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_math\vector.h">
+      <Filter>safe99_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\safe99_soft_renderer_2d\i_soft_renderer_2d.h">
+      <Filter>safe99_soft_renderer_2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\BADA\private\app.h">
+      <Filter>BADA\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\BADA\private\keyboard_event.h">
+      <Filter>BADA\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\BADA\private\mouse_event.h">
+      <Filter>BADA\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\BADA\private\precompiled.h">
+      <Filter>BADA\private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\BADA\canvas.h">
+      <Filter>BADA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\BADA\private\app.c">
+      <Filter>BADA\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\BADA\private\keyboard_event.c">
+      <Filter>BADA\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\BADA\private\main.c">
+      <Filter>BADA\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\BADA\private\mouse_event.c">
+      <Filter>BADA\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\BADA\private\precompiled.c">
+      <Filter>BADA\private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\BADA\canvas.c">
+      <Filter>BADA</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
